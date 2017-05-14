@@ -1,3 +1,2 @@
-let app = document.querySelector('#app')
-
-app.innerHTML = '<h2>Welcome to require-in-native</h2>'
+const Elm = require('./Main.elm');
+const app = Elm.Main.fullscreen();

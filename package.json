@@ -12,8 +12,10 @@
     "test:watch": "nwb test --server"
   },
   "dependencies": {
+    "lorem-ipsum": "^1.0.4"
   },
   "devDependencies": {
+    "elm-webpack-loader": "^4.3.1",
     "nwb": "0.15.x"
   },
   "author": "",
